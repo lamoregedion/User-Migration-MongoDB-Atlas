@@ -1,6 +1,6 @@
 # MongoDB Atlas User Migration Tool
 
-When migrating to MongoDB Atlas, tools like Cluster-to-Cluster Sync, Live Migrate, and mongomirror are invaluable. However, these tools do not cover the migration of user and role data.
+When migrating to MongoDB Atlas, tools like [Cluster-to-Cluster Sync](https://www.mongodb.com/docs/cluster-to-cluster-sync/current/), Live Migrate, and mongomirror are invaluable. However, these tools do not cover the migration of user and role data.
 
 This Python script fills that gap by helping you migrate your existing database users and roles to MongoDB Atlas. Please note that it cannot migrate user passwords directly; instead, the script generates random passwords and saves them to a `users.txt` file.
 
