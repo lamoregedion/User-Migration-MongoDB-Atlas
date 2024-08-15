@@ -17,8 +17,9 @@ This Python script fills that gap by helping you migrate your existing database 
 
 2. **Configure Parameters:**
 
-Populate the params.py file with your credentials. You’ll need an Atlas Organization API Key.
+   Populate the params.py file with your credentials. You’ll need an Atlas Organization API Key.
 
+```bash
 # Source Database
 source_conn_string = "<Application connection string>"
 source_database = 'admin'
